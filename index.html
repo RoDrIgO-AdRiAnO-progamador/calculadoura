@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main data-theme="dark">
+      <header class="flex align-center justify-between">
+        <h1>Calculadora</h1>
+        <button id="themeSwitcher">SwitchThemeDark / Light</button>
+      </header>
+      <input type="text" id="input" name="input" />
+      <div id="keys">
+        <button id="clear">C</button>
+        <button class="charkeys" data-Value=" ( ">(</button>
+        <button class="charkeys" data-Value=" ) ">)</button>
+        <button class="charkeys" data-Value=" / ">/</button>
+        <button class="charkeys" data-Value="7">7</button>
+        <button class="charkeys" data-Value="8">8</button>
+        <button class="charkeys" data-Value="9">9</button>
+        <button class="charkeys" data-Value=" * ">*</button>
+        <button class="charkeys" data-Value="4">4</button>
+        <button class="charkeys" data-Value="5">5</button>
+        <button class="charkeys" data-Value="6">6</button>
+        <button class="charkeys" data-Value=" - ">-</button>
+        <button class="charkeys" data-Value="1">1</button>
+        <button class="charkeys" data-Value="2">2</button>
+        <button class="charkeys" data-Value="3">3</button>
+        <button class="charkeys" data-Value=" + ">+</button>
+        <button class="charkeys" data-Value=" . ">.</button>
+        <button class="charkeys" data-Value=" % ">%</button>
+        <button id="equal">=</button>
+      </div>
+      <section class="flex align-center justify-between">
+        <button id="copyToClipboad">Copy</button>
+        <input type="text" id="result" disabled />
+      </section>
+    </main>
+  </body>
+
+  <script src="/index.js"></script>
+</html>
